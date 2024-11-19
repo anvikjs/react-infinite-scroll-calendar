@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rowdies:wght@400;700&display=swap");
+.main-content {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infinity-calendar {
+  display: inline-grid;
+  justify-content: center;
+  background: transparent;
+  border-radius: 12px;
+  box-shadow: 0px 1px 70px 15px rgba(0, 0, 0, 0.1);
+  font-family: initial;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #881ceb;
+  overflow: auto;
+}
+
+.infinity-calendar-header {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #881ceb;
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+.infinity-calendar .month {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  justify-content: center;
+}
+.infinity-calendar .month div {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.infinity-calendar .month .year {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.infinity-calendar .days {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  color: #fff;
+  font-weight: 600;
+}
+.infinity-calendar .days .day-title {
+  min-width: 50px;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.infinity-calendar-day-container {
+  padding: 20px 15px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  background: #ffffff none repeat scroll 0 0;
+}
+
+.infinity-calendar-sub-container {
+  margin-top: 0px;
+}
+
+.infinity-calendar .dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.infinity-calendar .dates .date-container {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+  justify-self: center;
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 5px;
+  transition-duration: 0.2s;
+  /* font-size: 12px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infinity-calendar .dates .date-container.today {
+  box-shadow: inset 0px 0px 0px 2px #ff9d0a;
+  border: #ff9d0a;
+  background: #ff9d0a;
+  color: white;
+}
+
+.infinity-calendar .dates .date-container:hover {
+  border: #881ceb;
+  box-shadow: inset 0px 0px 0px 2px #881ceb;
+}
+.infinity-calendar .dates .date-container.selected {
+  border: #881ceb;
+  background: #881ceb;
+  box-shadow: inset 0px 0px 0px 2px #881ceb;
+  color: #fff;
+}
+
+.infinity-calendar .dates .date-container.disabled-date {
+  box-shadow: inset 0px 0px 0px 2px #efefef;
+  background: #efefef !important;
+  border: #efefef;
+  color: #000;
+}
+
+.infinity-calendar .dates .today.disabled-date {
+  opacity: 0.6;
+  box-shadow: inset 0px 0px 0px 2px #ff9d0a;
+  border: #ff9d0a;
+  background: #ff9d0a !important;
+  color: white;
+}

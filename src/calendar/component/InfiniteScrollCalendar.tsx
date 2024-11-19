@@ -454,7 +454,6 @@ const InfiniteScrollCalendar = ({
         onScroll={calendarScroll}
         style={{
           maxHeight: getCalendarContainerHeight(),
-          width: getCalendarContainerWidth(),
         }}
       >
         {buildCalendarStartDate.length > 0

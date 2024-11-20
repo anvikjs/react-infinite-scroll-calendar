@@ -107,8 +107,7 @@ Once you're done, push your changes to your fork and create a pull request.
 -   **Blogs:** https://anvikjs.com/
 -   **Email:** anvikjs@gmail.com
 -   **Medium:** [https://kawaljain.medium.com/](https://kawaljain.medium.com/) 
--   **Dev:** [https://dev.to/kawaljain](https://dev.to/kawaljain) (replace with your actual Medium link).
-
+-   **Dev:** [https://dev.to/kawaljain](https://dev.to/kawaljain)
 
 ## Acknowledgments
 

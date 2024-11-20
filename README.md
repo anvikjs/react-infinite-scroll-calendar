@@ -83,10 +83,42 @@ If you find an [issue](https://github.com/anvikjs/react-infinite-scroll-calendar
 
 React Infinite Calendar has very few dependencies. It relies on [`date-fns`](https://www.npmjs.com/package/date-fns). It also has the following peerDependencies: [`react`](https://www.npmjs.com/package/react).
 
+## Contributing
+
+We welcome contributions to the project! If you have any suggestions or would like to improve the calendar, feel free to fork the repository, make your changes, and submit a pull request. Please follow these guidelines:
+
+-   Ensure that your code follows the existing style and structure of the project.
+-   Write clear and concise commit messages.
+-   Add relevant tests for new features or bug fixes.
+
+To contribute, please fork the repository and create a new branch for your feature or fix:
+
+```sh
+    git checkout -b feature-name
+```
+Once you're done, push your changes to your fork and create a pull request.
+
 ## Author
 
 [**Kawal Jain**]
 
+-   **Name:** Kawal Jain
+-   **Website:** https://kawaljain.com
+-   **Blogs:** https://anvikjs.com/
+-   **Email:** anvikjs@gmail.com
+-   **Medium:** [https://kawaljain.medium.com/](https://kawaljain.medium.com/) 
+-   **Dev:** [https://dev.to/kawaljain](https://dev.to/kawaljain) (replace with your actual Medium link).
+
+
+## Acknowledgments
+
+-   Thanks to all the contributors for helping make this project better!
+-   Inspired by the need for a smooth calendar experience in React-based web applications.
+
 ## License
 
 _@anvikjs/react-infinite-scroll-calendar_ is available under the [MIT](https://choosealicense.com/licenses/mit/) License.
+
+Feel free to reach out to me for questions, suggestions, or support.
+
+Happy coding! 👨‍💻👩‍💻
